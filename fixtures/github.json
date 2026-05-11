@@ -1,0 +1,13 @@
+{
+  "darkfox42": [
+    {
+      "username": "darkfox42",
+      "repos": ["darkfox42/phishkit-templates", "darkfox42/o365-clone"],
+      "commit_emails": ["darkfox42@protonmail.example", "test@local.example"],
+      "leaked_hashes": [
+        "5d41402abc4b2a76b9719d911017c592",
+        "aaf4c61ddcc5e8a2dabede0f3b482cd9aea9434d"
+      ]
+    }
+  ]
+}

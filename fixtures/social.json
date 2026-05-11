@@ -1,0 +1,18 @@
+{
+  "darkfox42": [
+    {
+      "username": "darkfox42",
+      "platform": "twitter",
+      "display_name": "John Doe",
+      "contact_emails": ["darkfox42@protonmail.example"],
+      "urls": ["https://twitter.example/darkfox42"]
+    },
+    {
+      "username": "darkfox42",
+      "platform": "telegram",
+      "display_name": "DarkFox",
+      "contact_emails": [],
+      "urls": ["https://t.example/darkfox42"]
+    }
+  ]
+}

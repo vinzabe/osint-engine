@@ -1,0 +1,22 @@
+{
+  "secure-corp-login.example": [
+    {
+      "domain": "secure-corp-login.example",
+      "registrant_email": "darkfox42@protonmail.example",
+      "registrant_name": "John Doe",
+      "registrant_org": "Anonymous Holdings",
+      "nameservers": ["ns1.dyn-dns.example", "ns2.dyn-dns.example"]
+    }
+  ],
+  "corp-portal-update.example": [
+    {
+      "domain": "corp-portal-update.example",
+      "registrant_email": "darkfox42@protonmail.example",
+      "registrant_name": "John Doe",
+      "registrant_org": "Anonymous Holdings",
+      "nameservers": ["ns1.dyn-dns.example", "ns2.dyn-dns.example"]
+    }
+  ],
+  "darkfox42@protonmail.example": [],
+  "darkfox42": []
+}

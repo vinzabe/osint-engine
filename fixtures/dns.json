@@ -1,0 +1,16 @@
+{
+  "secure-corp-login.example": [
+    {
+      "domain": "secure-corp-login.example",
+      "a": ["198.51.100.42"],
+      "mx": ["mail.dyn-dns.example"]
+    }
+  ],
+  "corp-portal-update.example": [
+    {
+      "domain": "corp-portal-update.example",
+      "a": ["198.51.100.42"],
+      "mx": ["mail.dyn-dns.example"]
+    }
+  ]
+}

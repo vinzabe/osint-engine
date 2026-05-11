@@ -1,0 +1,24 @@
+{
+  "darkfox42@protonmail.example": [
+    {
+      "paste_id": "abc123",
+      "entities": [
+        {"type": "email", "value": "darkfox42@protonmail.example"},
+        {"type": "username", "value": "darkfox42"},
+        {"type": "btc_address", "value": "bc1qar0srrr7xfkvy5l643lydnw9re59gtzzwf5mdq"},
+        {"type": "domain", "value": "secure-corp-login.example"},
+        {"type": "domain", "value": "corp-portal-update.example"}
+      ]
+    }
+  ],
+  "darkfox42": [
+    {
+      "paste_id": "def456",
+      "entities": [
+        {"type": "username", "value": "darkfox42"},
+        {"type": "email", "value": "darkfox42@protonmail.example"},
+        {"type": "person", "value": "John Doe"}
+      ]
+    }
+  ]
+}

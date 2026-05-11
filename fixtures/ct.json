@@ -1,0 +1,21 @@
+{
+  "secure-corp-login.example": [
+    {
+      "domain": "secure-corp-login.example",
+      "san_domains": [
+        "login.secure-corp-login.example",
+        "sso.secure-corp-login.example",
+        "vpn.secure-corp-login.example"
+      ]
+    }
+  ],
+  "corp-portal-update.example": [
+    {
+      "domain": "corp-portal-update.example",
+      "san_domains": [
+        "okta.corp-portal-update.example",
+        "auth.corp-portal-update.example"
+      ]
+    }
+  ]
+}
