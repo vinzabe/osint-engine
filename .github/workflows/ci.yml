@@ -1,0 +1,33 @@
+name: ci
+on:
+  push:
+    branches: [main]
+  pull_request:
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.11", "3.12"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      - run: python -m pip install -e ".[dev]"
+      - name: ruff
+        run: ruff check src tests
+      - name: mypy (strict)
+        run: mypy --strict src/osint
+      - name: tests + coverage
+        run: pytest --cov=osint --cov-report=term-missing --cov-fail-under=85
+
+  demo-sweep:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: python -m pip install -e .
+      - name: sweep with PII minimised (default)
+        run: python -m osint sweep example.com --now 2026-08-01
